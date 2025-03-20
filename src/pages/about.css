@@ -1,0 +1,37 @@
+.aboutus-container{
+    display: flex;
+ height: 60vh;
+}
+.aboutus-content-one{
+    flex: 1;
+    background-color:rgb(21,3,3) ;
+
+
+}
+.aboutus-content h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    color: white;
+    font-size: 60px;
+}
+.aboutus-image{
+    flex: 1;
+    background-image: url('../assets//hero3.jpg');
+    background-size: center;
+background-size: cover;
+background-position: top;
+
+
+}
+@media screen and (max-width:432px){
+    .aboutus-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .aboutus-image{
+        display: none;
+    }
+}
+

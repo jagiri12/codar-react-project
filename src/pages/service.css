@@ -1,0 +1,39 @@
+.allservices-container{
+    display: flex;
+    height: 60vh
+}
+.allservices-content-one{
+    flex: 1;
+    background-color:#150303 ;
+    display: flex;
+    justify-content: center;
+}
+.allservices-content{
+    display: flex;
+    align-items: center;
+    /* height: 50vh; */
+    justify-content: center;
+}
+.allservices-content h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* height: 50vh; */
+    color: white;
+    font-size: 60px; 
+}
+.allservices-image{
+    flex: 1;
+    background-image: url('../assets//instra2.jpg');
+    background-position: center;
+    background-size: cover;
+}
+@media screen and (max-width:432px){
+    .allservices-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .allservices-image{
+        display: none;
+    }
+}

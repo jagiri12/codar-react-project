@@ -1,0 +1,121 @@
+.footer-section{
+    background-color:rgb(21,3,3) ; 
+}
+.footer-container{
+    display: flex;
+    margin-top: 100px;
+    align-items: center; 
+    justify-content: space-between; 
+    align-items: center;
+    width: 1400px;
+    margin: auto; 
+    height: 50vh;
+    align-items: center;
+    background-color:rgb(21,3,3) ; 
+}
+.footer-one p{
+    color: grey;
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+}
+.footer-middle p{
+    color: grey;
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+}
+
+.footer-one{
+    text-align: center;
+}
+.footer-one h1{
+    color:white;
+    font-family: "Open Sans", sans-serif;
+}
+
+.footer{
+    color: red;
+    font-size: 30px;
+    margin: auto;
+}
+.footer-middle{
+    margin: 0 auto;
+}
+/* .footer-middle img{
+    margin: auto;
+} */
+/* .footer-middle p{
+    text-align: center;
+} */
+.footer-middle-icons {
+   display: flex;
+ gap: 15px;
+
+ margin-top: 1rem;
+
+}
+ .footer-icon1{
+color: white;
+   font-size: 20px;
+   margin: auto;
+    margin-top: 10px;
+
+ 
+}
+.footer-picture{
+  
+    margin: 0 auto;
+}
+.circle{
+    height: 50px;
+    width: 50px;
+    background-color:rgb(52, 29, 29)  ;
+border-radius: 30px;
+ padding: 7px 7px;
+ text-align: center;
+
+}
+@media screen and (max-width:432px){
+    .footer-container{
+        display: flex;
+        flex-direction: column;
+        margin-top: 100px;
+        align-items: center; 
+        justify-content: space-between; 
+   align-items: flex-start;
+    width: 100%;
+        margin: auto; 
+        height: 50vh;
+
+        background-color:rgb(21,3,3) ; 
+    }
+}
+@media screen and (max-width:820px){
+    .footer-container{
+        display: flex;
+        flex-direction: column;
+        margin-top: 100px;
+        align-items: center; 
+        justify-content: space-between; 
+   align-items: flex-start;
+    width: 100%;
+        margin: auto; 
+         height: 50vh;
+
+        background-color:rgb(21,3,3) ; 
+    }
+}
+@media screen and (max-width:1024px){
+    .footer-container{
+        display: flex;
+        flex-direction: column;
+        margin-top: 100px;
+        align-items: center; 
+        justify-content: space-between; 
+   align-items: flex-start;
+    width: 100%;
+        margin: auto; 
+         height: 50vh;
+
+        background-color:rgb(21,3,3) ; 
+    }
+}
