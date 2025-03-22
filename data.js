@@ -62,9 +62,9 @@ export const aboutData = [
   import test2 from './src/assets/customer2.png'
    import test3 from './src/assets/customer3.png'
    export const allTestimonial =[
-    {id:1, text:"Consectetur adipiscing elit, sed do eiusmod tempor dunt ulter labore et dolore magna.", test:test1,name:"Oluwatobi"},
-    {id:2 , text:"Consectetur adipiscing elit, sed do eiusmod tempor dunt ulter labore et dolore magna.", test:test2,name:"Precious"},
-    {id:3 , text:"Consectetur adipiscing elit, sed do eiusmod tempor dunt ulter labore et dolore magna.", test:test3,name:"James"},
+    {id:1, text:"Consectetur adipiscing elit, sed do eiusmod tempor dunt ulter labore et dolore magna.", test:test1,name:"Jane Smith"},
+    {id:2 , text:"Consectetur adipiscing elit, sed do eiusmod tempor dunt ulter labore et dolore magna.", test:test2,name:"John Doe"},
+    {id:3 , text:"Consectetur adipiscing elit, sed do eiusmod tempor dunt ulter labore et dolore magna.", test:test3,name:"Mike Johnson"},
     ]
     import barcut1 from './src/assets/instra1.jpg'
     import barcut2 from './src/assets/instra2.jpg'

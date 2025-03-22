@@ -1,37 +1,58 @@
-.aboutus-container{
+.aboutus-container {
     display: flex;
- height: 60vh;
+    height: 60vh;
+    flex-wrap: wrap; /* Ensures better wrapping on smaller screens */
 }
-.aboutus-content-one{
+
+.aboutus-content-one {
     flex: 1;
-    background-color:rgb(21,3,3) ;
-
-
-}
-.aboutus-content h1{
+    background-color: rgb(21, 3, 3);
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 50vh;
+    padding: 20px;
+}
+
+.aboutus-content-one h1 {
     color: white;
     font-size: 60px;
+    text-align: center;
 }
-.aboutus-image{
+
+.aboutus-image {
     flex: 1;
-    background-image: url('../assets//hero3.jpg');
-    background-size: center;
-background-size: cover;
-background-position: top;
-
-
+    background-image: url('../assets/hero3.jpg');
+    background-size: cover;
+    background-position: top;
 }
-@media screen and (max-width:432px){
-    .aboutus-container{
-        display: flex;
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    .aboutus-container {
         flex-direction: column;
+        height: auto;
+        transition: flex-direction 0.3s ease; /* Smooth transition */
     }
-    .aboutus-image{
-        display: none;
+
+    .aboutus-content-one {
+        padding: 1rem; /* Use relative units */
+    }
+
+    .aboutus-content-one h1 {
+        font-size: 2.5rem; /* Scalable font size */
+    }
+
+    .aboutus-image {
+        height: 20vh; /* Relative height */
+        background-position: center;
     }
 }
 
+@media screen and (max-width: 432px) {
+    .aboutus-image {
+        display: none; /* Hide on very small screens */
+    }
+
+    .aboutus-content-one h1 {
+        font-size: 2rem; /* Further reduce font size */
+    }
+}

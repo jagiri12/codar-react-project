@@ -45,7 +45,7 @@ const Navbar = () => {
             </div>
           </div>
 
-          <button className="main-button">Click Me!</button>
+          <button className="main-button">Free Quote</button>
           <MdCancel
             className="navbar-cancel"
             onClick={() => setIsOpen(false)}
