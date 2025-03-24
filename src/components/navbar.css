@@ -17,8 +17,7 @@ z-index: 10;
 }
 
 .header-title {
-      : "    ",   ;
-  font-size: 16px;
+  font-size: 19px;
   font-weight: 400;
   line-height: 24px;
   color: rgb(255, 255, 255);
@@ -31,9 +30,8 @@ z-index: 10;
 }
 
 .nav-container .links {
-       : "    ",   ;
    text-decoration: none;
-  font-size: 14px;
+  font-size: 19px;
   font-weight: 600;
   line-height: 21px;
   color: black;
