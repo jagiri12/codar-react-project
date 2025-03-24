@@ -1,59 +1,60 @@
-import React from "react";
+import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
-import "./navbar.css";
-import { useState } from "react";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { MdCancel } from "react-icons/md";
 import headpic from "../assets/logo.png.webp";
+import "./navbar.css";
+
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
-
-  const toggleNavbar = () => {
-    setIsOpen(!isOpen);
-  };
 
   return (
     <>
       <header className="header-container">
         <h1 className="header-title">
-          <img src={headpic} />
+          <img src={headpic} alt="Logo" />
         </h1>
+
+        {/* Hamburger Menu Button */}
+        <button className="navbar-toggler" onClick={() => setIsOpen(!isOpen)}>
+          <GiHamburgerMenu />
+        </button>
+
+        {/* Navigation Links */}
         <nav className={`nav-container ${isOpen ? "is-active" : ""}`}>
-          <NavLink to="/" className="links">
+          <NavLink to="/" className="links" onClick={() => setIsOpen(false)}>
             Home
           </NavLink>
-          <NavLink to="/about" className="links">About</NavLink>
-
-          <NavLink to="/service" className="links">
+          <NavLink to="/about" className="links" onClick={() => setIsOpen(false)}>
+            About
+          </NavLink>
+          <NavLink to="/service" className="links" onClick={() => setIsOpen(false)}>
             Services
           </NavLink>
-          <NavLink to="/gallery" className="links">
+          <NavLink to="/gallery" className="links" onClick={() => setIsOpen(false)}>
             Gallery
           </NavLink>
+
+          {/* Dropdown */}
           <div className="dropdown">
             <NavLink to="/blogs" className="links">
               Blogs
             </NavLink>
-
             <div className="dropdown-content">
-              <NavLink to="/blogs" className="links">
+              <NavLink to="/blogs" className="links" onClick={() => setIsOpen(false)}>
                 Blogs
               </NavLink>
-              <NavLink to="/blogsdetails" className="links">
-                Blog details
+              <NavLink to="/blogsdetails" className="links" onClick={() => setIsOpen(false)}>
+                Blog Details
               </NavLink>
             </div>
           </div>
 
           <button className="main-button">Free Quote</button>
-          <MdCancel
-            className="navbar-cancel"
-            onClick={() => setIsOpen(false)}
-          />
+
+          {/* Close Button */}
+          <MdCancel className="navbar-cancel" onClick={() => setIsOpen(false)} />
         </nav>
-        <button className="navbar-toggler" onClick={toggleNavbar}>
-          <GiHamburgerMenu onClick={toggleNavbar} />
-        </button>
       </header>
     </>
   );

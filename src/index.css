@@ -66,7 +66,6 @@ color: white;
 }
 .hero-button a{
   color: white;
-  font-family: sans-serif;
   font-size: 14px;
   text-decoration: none;
 }
@@ -97,7 +96,7 @@ color: white;
   margin-top: 40px;
 }
 .about-accent-line{
-  height:3px;
+  height:6px;
   width: 50px;
   background-color: #ff0000;
   margin-bottom: 8px;
@@ -107,7 +106,6 @@ color: white;
   display: flex;
   gap: 10px;
   align-items: center;
-  font-family: "Open Sans", sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 27px;
@@ -116,7 +114,6 @@ color: white;
 
 
 .abouthero-content-two h1{
-  font-family: "Times New Roman";
 font-size: 40px;
 font-weight: 700;
 line-height: normal;
@@ -124,7 +121,6 @@ color: rgb(0, 0, 0);
 margin-bottom: 10px;
 }
  .abouthero-content-two p{
-  font-family: "Open Sans", sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 27px;
@@ -136,12 +132,10 @@ margin-bottom: 10px;
  margin-top: 10px;
   padding: 15px 25px;
   width: 150px;
-  font-family: "Open Sans", sans-serif;
 font-size: 18px;
 font-weight: 700;
 line-height: 27px;
 color: rgb(251, 0, 0);
-  font-family: sans-serif;
 
 } 
 .abouthero-btn:hover{
@@ -175,14 +169,13 @@ color: rgb(251, 0, 0);
 }
 
 .all-accent-line{
-  height:3px;
+  height:6px;
   width: 50px;
   background-color: #ff0000;
   margin-bottom: 8px;
 
 }
 .cutting2-content h1{
-  font-family: Chivo, sans-serif;
 font-size: 40px;
 font-weight: 700;
 line-height: 57.2px;
@@ -195,7 +188,6 @@ color: rgb(21, 3, 3);
 }
 .cutting2-content p{
   color: red;
-  font-family: Chivo, sans-serif;
 font-size: 18px;
 font-weight: 400;
 line-height: 21.6px;
@@ -203,7 +195,6 @@ color: rgb(21, 3, 3);
 }
 .cutting2-price{
   color: red;
-  font-family: Chivo, sans-serif;
 font-size: 18px;
 font-weight: 400;
 line-height: 21.6px;
@@ -268,7 +259,6 @@ color: rgb(21, 3, 3);
 } 
  .services-container-card h2{
   padding-top: 5px;
-  font-family: Chivo, sans-serif;
   font-size: 24px;
   font-weight: 400;
   line-height: 28.8px;
@@ -277,7 +267,6 @@ color: rgb(21, 3, 3);
 }
 .services-container-card p{
   padding-top: 5px;
-  font-family: "Open Sans", sans-serif;
 font-size: 16px;
 font-weight: 400;
 line-height: 24px;
@@ -323,14 +312,12 @@ color: white;
 .olamide1 h1{
 margin-top: 1rem;
 margin-bottom: 1rem;
-font-family: Chivo, sans-serif;
 font-size: 44px;
 font-weight: 700;
 line-height: 57.2px;
 color: rgb(21, 3, 3);
 }
 .accordion-head p{
-font-family: Chivo, sans-serif;
 font-size: 20px;
 font-weight: 700;
 line-height: 24px;
@@ -362,14 +349,13 @@ margin-top: 1rem;
 .gettoknow-section h1{
   text-align: center;
   margin-top: 10px;
-  font-family: Chivo, sans-serif;
 font-size: 44px;
 font-weight: 700;
 line-height: 57.2px;
 color: rgb(21, 3, 3);
 }
 .gettoknow-line{
-  height:3px;
+  height:6px;
   width: 50px;
   background-color: #ff0000;
   margin-bottom: 8px;
@@ -390,7 +376,6 @@ color: rgb(21, 3, 3);
   width: 100%;
 }
 .gettoknow-paragraph{
-  font-family: "Open Sans", sans-serif;
 font-size: 20px;
 font-weight: 300;
 line-height: 32px;
@@ -423,7 +408,6 @@ color: rgb(21, 3, 3);
     grid-template-columns: repeat(2, 1fr);
   }
   .abouthero-content-two h1{
-    font-family: "Times New Roman";
   font-size: 30px;
   font-weight: 700;
 
@@ -431,7 +415,6 @@ color: rgb(21, 3, 3);
   margin-bottom: 10px;
   }
   .abouthero-content-two p{
-    font-family: "Open Sans", sans-serif;
     font-size: 20px;
     font-weight: 400;
     line-height: 1.5;
@@ -445,7 +428,6 @@ color: rgb(21, 3, 3);
   
   }
   .abouthero-content-flex p{
-    font-family: "Open Sans", sans-serif;
     font-size: 20px;
     line-height: 1.5;
     color: rgb(103, 94, 94);
@@ -476,7 +458,6 @@ color: rgb(21, 3, 3);
   }  
   .services-container-card h2{
     padding-top: 5px;
-    font-family: Chivo, sans-serif;
     font-size: 25px;
     font-weight: 400;
     line-height: 1.5;
@@ -485,7 +466,6 @@ color: rgb(21, 3, 3);
   }
   .services-container-card p{
     padding-top: 5px;
-    font-family: "Open Sans", sans-serif;
   font-size: 18px;
   font-weight: 400;
 
@@ -515,14 +495,12 @@ color: rgb(21, 3, 3);
   .gettoknow-section h1{
   
     margin-top: 10px;
-    font-family: Chivo, sans-serif;
   font-size: 25px;
   font-weight: 700;
 
   color: rgb(21, 3, 3);
   }
   .gettoknow-paragraph{
-    font-family: "Open Sans", sans-serif;
   font-size: 18px;
   font-weight: 300;
 
@@ -557,7 +535,6 @@ color: rgb(21, 3, 3);
     width: 100%;
   }
   .abouthero-content-two h1{
-    font-family: "Times New Roman";
   font-size: 30px;
   font-weight: 700;
 
@@ -565,7 +542,6 @@ color: rgb(21, 3, 3);
   margin-bottom: 10px;
   }
   .abouthero-content-two p{
-    font-family: "Open Sans", sans-serif;
     font-size: 20px;
     font-weight: 400;
     line-height: 1.5;
@@ -579,7 +555,7 @@ color: rgb(21, 3, 3);
   
   }
   .abouthero-content-flex p{
-    font-family: "Open Sans", sans-serif;
+  
     font-size: 20px;
     line-height: 1.5;
     color: rgb(103, 94, 94);
@@ -602,7 +578,6 @@ color: rgb(21, 3, 3);
   
   }
   .cutting2-content h1{
-    font-family: Chivo, sans-serif;
   font-size: 40px;
   font-weight: 700;
   line-height: 57.2px;
@@ -615,7 +590,6 @@ color: rgb(21, 3, 3);
   }
   .cutting2-content p{
     color: red;
-    font-family: Chivo, sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 21.6px;
@@ -623,7 +597,6 @@ color: rgb(21, 3, 3);
   }
   .cutting2-price{
     color: red;
-    font-family: Chivo, sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 21.6px;
@@ -654,7 +627,6 @@ color: rgb(21, 3, 3);
   }  
   .services-container-card h2{
     padding-top: 5px;
-    font-family: Chivo, sans-serif;
     font-size: 28px;
     font-weight: 400;
     line-height: 1.5;
@@ -673,7 +645,7 @@ color: rgb(21, 3, 3);
   }
   .services-container-card p{
     padding-top: 5px;
-    font-family: "Open Sans", sans-serif;
+        
   font-size: 20px;
   font-weight: 400;
   line-height: 1.3;
@@ -693,14 +665,12 @@ color: rgb(21, 3, 3);
   .gettoknow-section h1{
   
     margin-top: 10px;
-    font-family: Chivo, sans-serif;
   font-size: 25px;
   font-weight: 700;
 
   color: rgb(21, 3, 3);
   }
   .gettoknow-paragraph{
-    font-family: "Open Sans", sans-serif;
   font-size: 18px;
   font-weight: 300;
 
@@ -736,7 +706,6 @@ color: rgb(21, 3, 3);
     grid-template-columns: repeat(1, 1fr);
   }
   .abouthero-content-two h1{
-    font-family: "Times New Roman";
   font-size: 30px;
   font-weight: 700;
   line-height: normal;
@@ -744,7 +713,6 @@ color: rgb(21, 3, 3);
   margin-bottom: 10px;
   }
   .abouthero-content-two p{
-    font-family: "Open Sans", sans-serif;
     font-size: 17px;
     font-weight: 400;
     line-height: 1.5;
@@ -758,7 +726,6 @@ color: rgb(21, 3, 3);
   
   }
   .abouthero-content-flex p{
-    font-family: "Open Sans", sans-serif;
     font-size: 16px;
     line-height: 1.5;
     color: rgb(103, 94, 94);
@@ -788,7 +755,6 @@ color: rgb(21, 3, 3);
   
   }
   .cutting2-content h1{
-    font-family: Chivo, sans-serif;
   font-size: 40px;
   font-weight: 700;
   line-height: 57.2px;
@@ -801,7 +767,6 @@ color: rgb(21, 3, 3);
   }
   .cutting2-content p{
     color: red;
-    font-family: Chivo, sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 21.6px;
@@ -809,7 +774,6 @@ color: rgb(21, 3, 3);
   }
   .cutting2-price{
     color: red;
-    font-family: Chivo, sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 21.6px;
@@ -845,7 +809,6 @@ color: rgb(21, 3, 3);
   }  
   .services-container-card h2{
     padding-top: 5px;
-    font-family: Chivo, sans-serif;
     font-size: 20px;
     font-weight: 400;
     line-height: 1.5;
@@ -854,7 +817,6 @@ color: rgb(21, 3, 3);
   }
   .services-container-card p{
     padding-top: 5px;
-    font-family: "Open Sans", sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.3;
@@ -886,14 +848,12 @@ color: rgb(21, 3, 3);
   .gettoknow-section h1{
   
     margin-top: 10px;
-    font-family: Chivo, sans-serif;
   font-size: 25px;
   font-weight: 700;
 
   color: rgb(21, 3, 3);
   }
   .gettoknow-paragraph{
-    font-family: "Open Sans", sans-serif;
   font-size: 17px;
   font-weight: 300;
 

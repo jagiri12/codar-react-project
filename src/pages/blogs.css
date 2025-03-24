@@ -92,7 +92,6 @@
 }
 
 .blogs-component-content h1 {
-  font-family: Chivo, sans-serif;
   font-size: 24px;
   font-weight: 600;
   line-height: 28.8px;
@@ -105,7 +104,6 @@
 }
 
 .blogs-component-content p {
-  font-family: "Open Sans", sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 22.4px;
@@ -114,7 +112,6 @@
 
 .blogs-icons-link,
 .blogs-icons1 span {
-  font-family: "Open Sans", sans-serif;
   font-size: 14px;
   font-weight: 400;
   line-height: 21px;
@@ -138,7 +135,6 @@
 
 .overlay p {
   color: white;
-  font-family: sans-serif;
   font-size: 19px;
 }
 
@@ -189,7 +185,6 @@
 .bloglist-category h1 {
 
   padding: 10px;
-  font-family: Chivo, sans-serif;
   font-size: 20px;
   font-weight: 500;
   line-height: 24px;
@@ -207,7 +202,6 @@
 }
 
 .bloglist-content p {
-  font-family: "Open Sans", sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 22.4px;
@@ -248,7 +242,6 @@
 }
 
 .blogs-para {
-  font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
@@ -256,7 +249,6 @@
 }
 
 .blogs-date {
-  font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
@@ -269,7 +261,6 @@
 }
 
 .bloglist-content2-content-insta-feed12 h1 {
-  font-family: Chivo, sans-serif;
   font-size: 20px;
   font-weight: 500;
   line-height: 24px;
@@ -298,7 +289,6 @@
 }
 
 .bloglist-content2-content-insta-feed h1 {
-  font-family: Chivo, sans-serif;
   font-size: 20px;
   font-weight: 500;
   line-height: 24px;
@@ -344,7 +334,6 @@
   }
 
   .blogs-component-content h1 {
-    font-family: Chivo, sans-serif;
     font-size: 18px;
 
     font-weight: 600;
@@ -353,7 +342,6 @@
   }
 
   .blogs-component-content p {
-    font-family: "Open Sans", sans-serif;
     font-size: 15px;
     font-weight: 400;
     line-height: 22.4px;
@@ -393,7 +381,6 @@
   }
 
   .blogs-component-content h1 {
-    font-family: Chivo, sans-serif;
     font-size: 20px;
 
     font-weight: 600;
@@ -402,7 +389,6 @@
   }
 
   .blogs-component-content p {
-    font-family: "Open Sans", sans-serif;
     font-size: 18px;
     font-weight: 400;
     line-height: 1.5;

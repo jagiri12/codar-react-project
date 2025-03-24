@@ -269,29 +269,7 @@ color: rgb(251, 0, 0);
     transition: all 1s;
 }
 
-@media screen and (max-width:432px){
-    .lasting-container{
-        display: flex;
-        flex-direction: column;
-    }
-    .myblogdetailpage-wrapper{
-        display: flex;
-        flex-direction: column;
 
-    }
-    .lasting-image{
-        display: none;
-    }
-    .blog-testimonial-flex{
-        display: flex;
-        flex-direction: row;
-    }
-   .lasting-content  h1{
-    font-size: 60px;
-   }
-
-    
-}
 @media screen and (max-width:768px){
     .lasting-container{
         display: flex;
@@ -729,4 +707,136 @@ color: rgb(251, 0, 0);
         gap: 17px;
      
     }
+}
+@media screen and (max-width:432px){
+    .lasting-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .myblogdetailpage-wrapper{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .lasting-image{
+        display: none;
+    }
+    .blog-testimonial-flex{
+        display: flex;
+        flex-direction: row;
+    }
+   .lasting-content  h1{
+    font-size: 60px;
+   }
+   .blogs-comment-section1{
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.blogs-comment-one p{
+    font-family: "Open Sans", sans-serif;
+font-size: 14px;
+font-weight: 400;
+line-height: 19.6px;
+color: rgb(103, 94, 94);
+display: flex;
+align-items: center;
+gap: 1rem;
+}
+
+.starting-comment{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    background-color:rgb(251,249,255); 
+      padding: 2rem;  
+    margin: 3rem 0; 
+}
+.starting-comment img{
+    width: 100px;
+}
+.starting-comment-content h3{
+    font-family: Chivo, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19.2px;
+   
+    color: rgb(21, 3, 3);
+ }
+.starting-comment-content p{
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 21px;
+    color: rgb(103, 94, 94);
+ 
+ }
+ 
+ .blog-testimonial-flex img{
+    width: 100px;
+ }
+ .blog-testimonial-flex{
+    display: flex;
+    gap: 2rem;
+   padding:1rem 0
+}
+.blogs-testimonial-comment p{
+    font-family: Chivo, sans-serif;
+font-size: 18px;
+font-weight: 500;
+line-height: 21.6px;
+color: rgb(21, 3, 3);
+}
+.blog-testimonial-flex p{
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 21px;
+    color: rgb(119, 119, 119);
+}
+.allrounded-name{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-top: 15px;
+    
+}
+.blog-testimonial-flex h3{
+    font-family: Chivo, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.2;
+    color: rgb(21, 3, 3);
+}
+.bloggergoogler  {
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 21px;
+    margin-top: 10px;
+    color: rgb(103, 94, 94);
+}
+.glogspadding{
+    margin-top: 15px;
+    background-color: rgb(242,243,247);
+    padding: 20px
+}
+.papa{
+background-color: white;
+padding: 15px;
+
+}
+.myblogdetailpage-container1-content h1{
+    font-family: Chivo, sans-serif;
+    margin-top: 15px;
+      font-size: 20px;
+      font-weight: 600;
+      line-height: 1.4;
+      color: rgb(45, 45, 45);
+}
+
+
+    
 }
